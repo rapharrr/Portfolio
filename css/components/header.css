@@ -4,6 +4,7 @@ header {
     align-items: center;
     gap: 4rem;
     scroll-margin-top: 20rep;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 header .header_left {
@@ -15,11 +16,13 @@ header .header_left p {
     margin-top: 2rem;
     margin-bottom: 4rem;
     max-width: 50rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
 }
 
 header .header_right .header_image {
     position: relative;
     line-height: 0;
+    width: 500px;
 }
 
 header .header_right .header_image::after {
@@ -35,7 +38,7 @@ header .header_right .header_image::after {
     z-index: -1;
 }
 
-header .header_right .header_image .Lucas{
+header .header_right .header_image .Rapha{
     border-radius: 0.5rem;
     min-width: 25rem;
     max-width: 100%;

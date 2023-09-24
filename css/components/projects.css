@@ -9,6 +9,10 @@
     margin: 0 auto 6rem;
 }
 
+.projects p,a{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+
 .projects ul li {
     display: flex;
     justify-content: space-between;

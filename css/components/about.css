@@ -5,6 +5,10 @@
     scroll-margin-top: 20rem;
 }
 
+.about p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 .about .about_left {
     max-width: 40rem;
     flex: 1;
@@ -12,6 +16,7 @@
 
 .about .about_left p {
     margin: 1rem 0 2rem;
+
 }
 
 .about .about_left ul {
