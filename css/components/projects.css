@@ -9,8 +9,9 @@
     margin: 0 auto 6rem;
 }
 
-.projects p,a{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+.projects p,
+a {
+    font-family: 'Roboto Slab';
 }
 
 .projects ul li {
@@ -51,7 +52,7 @@
 @media only screen and (max-width: 760px) {
 
     .projects ul li,
-    .projects ul li.projects_reversed_list {
+    .projects ul li.projects_reversed-list {
         flex-direction: column;
     }
 

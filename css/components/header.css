@@ -16,7 +16,7 @@ header .header_left p {
     margin-top: 2rem;
     margin-bottom: 4rem;
     max-width: 50rem;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-family: 'Roboto Slab';
 }
 
 header .header_right .header_image {
@@ -38,25 +38,34 @@ header .header_right .header_image::after {
     z-index: -1;
 }
 
-header .header_right .header_image .Rapha{
+header .header_right .header_image .Rapha {
     border-radius: 0.5rem;
     min-width: 25rem;
     max-width: 100%;
 }
 
-header .header_right .header_image .background{
+header .header_right .header_image .background {
     position: absolute;
     top: -4rem;
     right: -2.5rem;
     z-index: -1;
 }
 
-@media only screen and (max-width: 760px){
-    header{
+@media only screen and (max-width: 760px) {
+    header {
         flex-direction: column-reverse;
         text-align: center;
     }
-    header .header_left p{
+
+    header .header_left p {
         margin: 2rem auto 4rem;
+    }
+
+    header .header_right .header_image .Rapha {
+        max-width: 100%;
+    }
+
+    header .header_right .header_image {
+        width: 250px;
     }
 }
